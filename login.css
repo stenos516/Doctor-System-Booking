@@ -1,0 +1,125 @@
+html, body {
+  height: 70%;
+  margin: 0;
+  background: url('26363.jpg') no-repeat center center fixed;
+  background-size: cover; /* Use 'contain' if you prefer to see the whole image */
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.6);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+  .login-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #03e9f4;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-btn:hover {
+    background-color: #0288d1;
+}
+
+footer {
+  display: fixed;
+  background-color: #bdc3c7;
+  color: #2c3e50;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-top: auto;
+}
+
+.white-text {
+  font-size:  16px;;
+   top: -20px;
+   left: 0;
+   color: #03e9f4;
+   font-size: 12px;
+ }
+
+ @media (max-width: 600px) {
+  .login-box {
+    width: 90%; /* Usa una percentuale per adattarsi meglio a schermi piccoli */
+    padding: 20px; /* Riduci il padding per evitare scroll orizzontale */
+  }
+}
+
+  
