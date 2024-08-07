@@ -209,7 +209,7 @@ $appointments_result = $stmt->get_result();
         <ul>
         <li><a href="index.php"><i class="fas fa-user"></i> Dashboard</a></li>
             <li><a href="patients.php"><i class="fas fa-user"></i> Patients</a></li>
-            <li><a href="appointments_today.php"><i class="fas fa-calendar-day"></i> Today's Appointments</a></li>
+          <!--  <li><a href="appointments_today.php"><i class="fas fa-calendar-day"></i> Today's Appointments</a></li>  -->
         </ul>
       <!--  <a href="logout.php" class="logout-btn">Logout</a> -->
     </aside>
